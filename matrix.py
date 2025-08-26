@@ -73,7 +73,7 @@ def cek_persyaratan(arr1,arr2,pilihan):
     return False
 
 def penginputan_matriks():
-    baris=3 #bisa juga membuat inputan custom user tergantung kebutuhan tapi karena tugas ini sudah dibatasi 3x3 maka tidak dibutuhkan (contoh: baris=int(input("Masukkan baris: ")))
+    baris=3 
     kolom=3
     arr = [[0 for j in range(kolom)] for i in range(baris)]
     for i in range(baris):
